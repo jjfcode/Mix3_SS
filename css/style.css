@@ -1,0 +1,60 @@
+/* 
+    Colors Code
+    #515050
+    #ABA8A8
+    #FFFFFF
+    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+@font-face {
+    font-family: 'Belanosima', sans-serif;
+    src: url(../fonts/Belanosima/Belanosima-Regular.ttf);
+    font-family: 'Ubuntu Mono', monospace;
+    src: url(../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ABA8A8;
+}
+
+#main {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background: #515050;
+    color: white;
+    text-shadow: 0px 0px 35px black;
+    text-align: center;
+    line-height: 90px;
+}
+
+#section {
+    width: 100%;
+    height: 800px;
+}
+
+#footer {
+    width: 100%;
+    height: 40px;
+    background: #515050;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
